@@ -1,5 +1,5 @@
 #### Factor Analysis
-##### 3가지 방법
+##### 추정: 3가지 방법
 1) Principal Component method
 	- m개의 인자만 사용했을 때 오차의 상한은 사용하지 않은 eigenvalue's의 제곱합이다.
 	  (m이p에 가까워지면 오차는 점점 커짐)
