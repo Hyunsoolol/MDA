@@ -1,4 +1,4 @@
-
+#### 09. Factor Analysis
 ##### Methods of estimation
 1) Principal Component method
 	- m개의 인자만 사용했을 때 오차의 상한은 사용하지 않은 eigenvalue's의 제곱합이다.
