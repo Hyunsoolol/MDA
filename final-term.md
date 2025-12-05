@@ -1,4 +1,4 @@
-#### 09. Factor Analysis
+
 ##### Methods of estimation
 1) Principal Component method
 	- m개의 인자만 사용했을 때 오차의 상한은 사용하지 않은 eigenvalue's의 제곱합이다.
@@ -39,5 +39,5 @@
 	- $E(F|X)=L^T(LL^T+\Phi)^{-1}(X-\mu)$
 	- $\hat{F_j}=\hat{L}^T(\hat{L}\hat{L}^T+\hat{\Phi})^{-1}(X_j-\bar{X})$, $(\hat{L}\hat{L}^T+\hat{\Phi})^{-1}=\hat\Sigma^{-1}$, $$\hat{F_j}=\hat{L}^TS^{-1}(X_j-\bar{X}).$$
 - Remark
-	- $\hat{F_{j}}^{R}=(I_m+(L^T\Phi^{-1}L)^{-1})^{-1}\hat{F_{j}}^{LS}$, $L^T(LL^T+\Phi)^{-1}=(I_m+L^T\Phi^{-1}L)^{-1}L^T\Phi^{-1}$
-	  -> $\Delta$가 큰 값이면 $\hat{F_{j}}^{R}$가 ${F_{j}}^{LS}$에 근사하게 됨
+	- $\hat{F_{j}^{R}}=(I_m+(L^T\Phi^{-1}L)^{-1})^{-1}\hat{F_{j}^{LS}}$, $L^T(LL^T+\Phi)^{-1}=(I_m+L^T\Phi^{-1}L)^{-1}L^T\Phi^{-1}$
+	  -> $\Delta$가 큰 값이면 $\hat{F_{j}^{R}}$가 ${F_{j}^{LS}}$에 근사하게 됨
