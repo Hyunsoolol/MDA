@@ -10,7 +10,7 @@
 		- 인자 수(m)이 너무 클 때
 		- 표본 크기 (n)이 너무 작을 때
 3) Maximum likelihood method
-	- 분포 가정 필요, $F_{i}\sim N_{m}(0,I_m)$ & $\epsilon_{i}\sim N(0,\Phi)$
+	- 분포 가정 필요, $F_{i}\sim N_{m}(0,I_m)&\epsilon_{i}\sim N(0,\Phi)$
 	- $X-\mu=LF+\epsilon$
 	- $X=LF+\epsilon+\mu$
 	- uniqueness condition
