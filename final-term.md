@@ -1,4 +1,4 @@
-
+#### 09. Factor analysis
 ##### Methods of estimation
 1) Principal Component method
 	- m개의 인자만 사용했을 때 오차의 상한은 사용하지 않은 eigenvalue's의 제곱합이다.
@@ -41,3 +41,59 @@
 - Remark
 	- $\hat{F_{j}^{R}}=(I_m+(L^T\Phi^{-1}L)^{-1})^{-1}\hat{F_{j}^{LS}}$, $L^T(LL^T+\Phi)^{-1}=(I_m+L^T\Phi^{-1}L)^{-1}L^T\Phi^{-1}$
 	  -> $\Delta$가 큰 값이면 $\hat{F_{j}^{R}}$가 ${F_{j}^{LS}}$에 근사하게 됨
+
+
+#### 11. Discrimination and Classification
+##### 0-1 Loss and Bayes decision rule
+- 정의
+	- $I(Y \neq \phi(X))$: 분류기 (loss)
+	- $E(Y \neq \phi(X))=P(Y \neq \phi(X))$: risk(loss의 기대값)
+	- $\phi_{Bayes}(x)=\arg_{k=1,2,\ldots,K}\max P(Y=k|X=x)$
+- Bayes Rule Classifier: Gaussian Example
+$$\hat\delta_k(x)=b_{0k}+b^T_{k}x+x^TC_{k}x$$
+- Linear Discriminant Analysis
+- Quadratic Discriminant Analysis
+
+##### Assessment of classifiers
+- training and testing sets
+- Validation
+	- K-fold Cross Validation
+	- Leave-One-Out Cross Validation
+	- misclassification rate if biased
+	- Larger K means less biased estimate.
+	- Larger K means more variance. (cov is added)
+
+#### 12. Clustering
+##### Dissimilarity and within-cluster scatter
+
+##### Combinatorial algorithm
+- $W(c)$를 작게하는 cluster 함수를 찾고자 함
+- 경우의 수는 약 $\frac{K^n}{K!}$으로 너무 크기 때문에 이상적인 알고리즘임
+
+##### $K$-means algorithm
+- motivation
+	- $W(c)$를 변형 후 작게 만들어주는 함수를 찾는 것
+- Process
+- 자료 값이 필요
+
+##### $K$-medoids algorithm
+- 개별 자료 값이 필요 없고, 자료 간 거리(비유사성 측도)만 있으면 됌
+- 다만, 군집의 중심은 n개의 자료 중 하나가 되어야 함
+- Process
+
+##### Hierarchical clustering
+- one unique solution
+- K를 선택할 필요가 없음
+- 연속적인 클러스터 분화 과정을 볼 수 있음
+- Linkage
+	- Single linkage
+	- Complete linkage
+	- Average linkage
+- Process
+##### Cluster index
+- K가 커지면 지수가 좋게 될 수 밖에 없음
+##### Scatter decomposition
+- K가 커지면 지수가 좋게 될 수 밖에 없음
+##### CH(Calinski-Harabasz) Index
+- K에 대한 패널티가 부여된 index
+
