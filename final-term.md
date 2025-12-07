@@ -20,6 +20,8 @@
 ##### Canonical correlation analysis
 - 정의
 
+---
+
 #### 09. Factor analysis
 ##### Methods of estimation
 1) Principal Component method
