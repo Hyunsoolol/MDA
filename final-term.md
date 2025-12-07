@@ -66,6 +66,7 @@
 	- $\hat{F_{j}^{R}}=(I_m+(L^T\Phi^{-1}L)^{-1})^{-1}\hat{F_{j}^{LS}}$, $L^T(LL^T+\Phi)^{-1}=(I_m+L^T\Phi^{-1}L)^{-1}L^T\Phi^{-1}$
 	  -> $\Delta$가 큰 값이면 $\hat{F_{j}^{R}}$가 ${F_{j}^{LS}}$에 근사하게 됨
 
+---
 
 #### 11. Discrimination and Classification
 ##### 0-1 Loss and Bayes decision rule
@@ -86,6 +87,8 @@ $$\hat\delta_k(x)=b_{0k}+b^T_{k}x+x^TC_{k}x$$
 	- misclassification rate if biased
 	- Larger K means less biased estimate.
 	- Larger K means more variance. (cov is added)
+
+---
 
 #### 12. Clustering
 ##### Dissimilarity and within-cluster scatter
