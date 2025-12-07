@@ -4,11 +4,11 @@
 - 방법
 - (증명) Spectral decopmposition 관계
 - (증명) 공분산, 분산합
-- (증명) 상관관계
+- (증명) 상관관계 $Corr(Z_i,X_k)$
 
 #### Sample PCA
 - 정의
-- 방법 (sigular value decomposition)
+- (증명) 방법 (sigular value decomposition)
 
 #### Selection of the number of PCs
 - 3가지 방법
@@ -19,7 +19,7 @@
 
 ##### Canonical correlation analysis
 - 정의
-
+- (증명) 상관관계
 ---
 
 #### 09. Factor analysis
