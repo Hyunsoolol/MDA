@@ -23,10 +23,14 @@ $$
 Varimax 방법은 **각 요인(열)별 정규화 제곱 적재치의 분산 합을 최대화**하는 회전행렬 $T$를 찾는 것이다.  
 목적함수는
 
-$
+$$
 V(T)
-= \sum_{j=1}^{m} \widehat{\operatorname{Var}}\big(\tilde l_{1j}^{*2}, \dots, \tilde l_{pj}^{*2}\big)= \sum_{j=1}^{m} \left(\frac{1}{p} \sum_{i=1}^{p} \tilde l_{ij}^{*4}- \left(\frac{1}{p}\sum_{i=1}^{p} \tilde l_{ij}^{*2}\right)^{2}\right)
-$
+= \sum_{j=1}^{m} \widehat{\operatorname{Var}}\big(\tilde l_{1j}^{*2}, \dots, \tilde l_{pj}^{*2}\big)
+= \sum_{j=1}^{m} \left(
+\frac{1}{p} \sum_{i=1}^{p} \tilde l_{ij}^{*4}
+- \left(\frac{1}{p}\sum_{i=1}^{p} \tilde l_{ij}^{*2}\right)^{2}
+\right)
+$$
 
 이며, $V(T)$를 최대화하는 직교행렬 $T$를 **Varimax 회전**이라고 한다.
 
